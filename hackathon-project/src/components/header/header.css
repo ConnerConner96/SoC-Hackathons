@@ -1,0 +1,70 @@
+.header{
+/* Header.css */
+.header {
+    position: sticky; 
+    margin-top: 0;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 0;
+    text-align: center;
+    top: 0;                    /* Stick the header to the top */
+    width: 100%;               /* Full width for the header */
+    backdrop-filter: blur(10px); /* Apply blur effect behind the header */
+    z-index: 1000;             /* Make sure the header stays on top */
+    padding: 10px 20px;        /* Padding inside the header */
+    padding-top: 0;            /* Remove any padding at the top of the header */
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  /* Filter Buttons Container */
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .filter-buttons button {
+    display: flex;
+    justify-content: space-evenly; 
+    width : 100%;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Hover Effect */
+  .filter-buttons button:hover {
+    background-color: darkgrey;
+  }
+  
+  .filter-buttons button:focus {
+    outline: none;
+  }
+  /* Search Bar Style */
+.search-bar {
+    width: 100%; /* Adjust the width of the search bar */
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #5c6bc0;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Search Bar Focus Effect */
+  .search-bar:focus {
+    border-color: #3f51b5;
+    outline: none;
+  }
+}
